@@ -43,8 +43,8 @@ if __name__ == '__main__':
     colors = ['b', 'g', 'y', 'r']
     cL = len(colors)
     cmap = 'gist_rainbow'
-    ppg = 5
-    test_ppg=3
+    ppg = 10
+    test_ppg=5
 
     # Genereate some random data points with a fixed, linear x axis in [0, 1].
     dpts = generate_points(ppg, cL)
